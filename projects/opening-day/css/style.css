@@ -22,7 +22,7 @@ footer {
     background-color: #090B0B;
     color: #fffffc;
     text-align: center;
-    padding: 2cm
+    padding: 5em;
 
 }
 
@@ -37,13 +37,13 @@ footer {
 h2 {
     /* TODO: Style the h2 (orange) -- 
     this will carry thru to all h2 elements, including the header*/
-    color:#DF4601;
+    color: #DF4601;
 
 }
 
 main {
     /* TODO: Add margin to main content area */
-    margin: 4mm;
+    margin: 2em;
 }
 
 a {
@@ -62,14 +62,13 @@ a {
     /* TODO: Set line-height to 2, text-align center, and add margin (top and bottom) */
     line-height: 2;
     text-align: center;
-    margin-top: 15mm;
-    margin-bottom: 15mm;
+    margin: 3em 0;
 }
 
 .tickets a {
     /* TODO: Sets styling for button link - add padding (all sides), 
     background-color, color, and text-decoration (none) */
-    padding: 5mm;
+    padding: 1em;
     background-color: #090B0B;
     color: #fffffc;
     text-decoration: none;
@@ -82,13 +81,13 @@ a {
     background-color: #DF4601;
     color: #fffffc;
     text-align: center;
-    padding: 10mm;
-    margin: 10mm;
+    padding: 2em;
+    margin: 2em;
 }
 
 /* ===== FAQs SECTION ===== */
 .faq {
     /* TODO: Add an orange left border and padding to the list section */
     border-left: 2px solid #DF4601;
-    padding: 2mm;
+    padding: 3em;
 }
