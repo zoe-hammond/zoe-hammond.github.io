@@ -1,0 +1,40 @@
+/*font-family: ."Luxurious Roman", serif;
+font-family: "Newsreader", serif; */
+
+header,
+footer { 
+    text-align: center;
+    background-color: #670c0d;
+    color: #fffffc;
+    font-family: "Luxurious Roman", serif;
+    padding: 3em;
+}
+header h1, footer h1 {
+        font-size: 150px;
+        font-weight: bold;
+    }
+ header h2, footer h2 {
+    font-size: 75px;
+ }
+header h3, footer h3 {
+        font-size: 40px;
+    }
+
+body {
+    font-family: "Newsreader", serif;
+    font-size: 35px;
+}
+#title {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    font-family:"Newsreader", serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
