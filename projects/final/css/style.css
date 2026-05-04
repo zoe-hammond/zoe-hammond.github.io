@@ -1,7 +1,7 @@
 body {
     background-color: #6B705C;
     font-family: "Google Sans Flex";
-    font-size: 30px;
+    font-size: 12px;
     line-height: 1.6;
     font-weight: 400;
     color: #2E2E2E;
@@ -14,7 +14,7 @@ header {
 
 h1 {
     font-family: "Prompt";
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 700;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -22,19 +22,17 @@ h1 {
 }
 
 .main {
-   padding-left: 4em;
+    padding-left: 4em;
     padding-right: 4em;
 }
 
 .container-fluid {
-    width:65%;
+    width: 65%;
 }
 
 .lede {
-    font-size: 30px;
+    font-size: 18px;
     text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
 }
 
 .quote {
@@ -42,7 +40,7 @@ h1 {
 }
 
 .title {
-    font-size: 40px;
+    font-size: 16px;
     font-weight: 500;
     color: black;
     margin-top: 2em;
@@ -54,6 +52,9 @@ h1 {
     margin-top: 2em;
     margin-bottom: 2em;
 }
-.quote2{
-   padding-top: 5em;
+
+.byline {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 2em;
 }
