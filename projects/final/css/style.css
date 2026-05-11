@@ -1,10 +1,12 @@
 body {
     background-color: #6B705C;
     font-family: "Google Sans Flex";
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.6;
     font-weight: 400;
     color: #2E2E2E;
+     margin: 0;
+    padding: 0 2rem;
 }
 
 header {
@@ -21,13 +23,10 @@ h1 {
     color: #341539;
 }
 
-.main {
-    padding-left: 4em;
-    padding-right: 4em;
-}
-
-.container-fluid {
-    width: 65%;
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .lede {
@@ -36,25 +35,51 @@ h1 {
 }
 
 .quote {
+    font-style: italic;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .title {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: bold;
     color: black;
     margin-top: 2em;
     margin-bottom: 2em;
 }
-
-.img-fluid {
+.image {
     align-content: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    padding-top: 4em;
+    max-width: 65%;
+    display:block;
+    margin: 0 auto;
 }
 
 .byline {
     font-weight: 800;
     font-size: 20px;
     margin-bottom: 2em;
+}
+
+.block {
+    border: 3px dotted #341539;
+    padding: 1em;
+    text-align: center;
+    margin: 2em;
+}
+footer{
+    font-size: 18px;
+    color: #341539;
+}
+a{
+    color: #341539;
+    font-style: italic;
+}
+.caption{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+    font-style: italic;
+    color:#341539;
+    padding-bottom: 3em;
 }
